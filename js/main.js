@@ -14,19 +14,8 @@ var pcConfig = {
   },
   {
       'urls': [ "stun:ss-turn1.xirsys.com" ]
-  }, 
-  {     
-     'urls': [
-         "turn:ss-turn1.xirsys.com:80?transport=udp",
-         "turn:ss-turn1.xirsys.com:3478?transport=udp",
-         "turn:ss-turn1.xirsys.com:80?transport=tcp",
-         "turn:ss-turn1.xirsys.com:3478?transport=tcp",
-         "turns:ss-turn1.xirsys.com:443?transport=tcp",
-         "turns:ss-turn1.xirsys.com:5349?transport=tcp"
-     ],
-     'username': "H4GL5hPgbtOpx9NboOsV9HxA12aJW0urVespEZTCX84VvlGaZ92eD_iwFsUgJRLKAAAAAF0i6YRrYWphdmF0YW4=",
-     'credential': "c05e535e-a14d-11e9-978f-7a7a3a22eac8"
-  }]
+  } 
+  ]
 };
 
 // Set up audio and video regardless of what devices are present.
